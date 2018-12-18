@@ -12,7 +12,7 @@ namespace GildedRose
 
         public static void Main()
         {
-            GildedRoeManager myManager = new GildedRoeManager();
+            GildedRoseManager myManager = new GildedRoseManager();
             myManager.Run();
         }
     }

@@ -4,7 +4,7 @@ using System.IO;
 
 namespace GildedRose
 {
-    public class GildedRoeManager
+    public class GildedRoseManager
     {
         
         static readonly System.String[] Options = new string[20];
