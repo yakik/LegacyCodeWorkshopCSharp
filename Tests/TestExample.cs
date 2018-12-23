@@ -7,7 +7,7 @@ namespace Tests
 {
     [UseReporter(typeof(DiffReporter))]
     [TestClass]
-    public class UnitTest1
+    public class TestExample
     {
         [TestMethod]
         public void TestMethod1()
