@@ -1,14 +1,18 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ApprovalTests;
+using ApprovalTests.Reporters;
 
-namespace GildedRoseTests
+namespace Tests
 {
+    [UseReporter(typeof(DiffReporter))]
     [TestClass]
-    public class GildedRoseTests
+    public class UnitTest1
     {
         [TestMethod]
         public void TestMethod1()
         {
+            Approvals.Verify(1);
         }
     }
 }
