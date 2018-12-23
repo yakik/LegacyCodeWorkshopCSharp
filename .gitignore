@@ -1,7 +1,5 @@
 ForRefactor/bin/
 ForRefactor/obj/
-GildedRoseTests/bin/
-GildedRoseTests/obj/
 .vs/ForRefactor/v15/
 
 
@@ -16,5 +14,6 @@ GildedRoseTests/obj/
 # NuGet v3's project.json files produces more ignorable files
 *.nuget.props
 *.nuget.targets
-Tests/bin/Debug/
+
 Tests/obj/Debug/
+Tests/bin/Debug/
